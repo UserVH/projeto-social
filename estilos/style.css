@@ -20,10 +20,7 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+
     
 }
 
@@ -58,4 +55,12 @@ section#redes-sociais img {
     margin: 10px;
     border-radius: 50%;
     box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.349);
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.514);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);
+    transform: translate(-4%, -5%);
+    transition: transform 0.5s, border 1s;
 }
